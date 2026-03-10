@@ -1,9 +1,15 @@
 {
   "version": 2,
+  "functions": {
+    "cdata.js":      { "memory": 128, "maxDuration": 10 },
+    "getrequest.js": { "memory": 128, "maxDuration": 10 },
+    "devicecmd.js":  { "memory": 128, "maxDuration": 10 },
+    "health.js":     { "memory": 128, "maxDuration": 10 }
+  },
   "rewrites": [
-    { "source": "/iclock/cdata",      "destination": "/api/cdata" },
-    { "source": "/iclock/getrequest", "destination": "/api/getrequest" },
-    { "source": "/iclock/devicecmd",  "destination": "/api/devicecmd" },
-    { "source": "/health",            "destination": "/api/health" }
+    { "source": "/iclock/cdata",      "destination": "/cdata" },
+    { "source": "/iclock/getrequest", "destination": "/getrequest" },
+    { "source": "/iclock/devicecmd",  "destination": "/devicecmd" },
+    { "source": "/health",            "destination": "/health" }
   ]
 }
