@@ -1,0 +1,8 @@
+{
+  "name": "biomax-attendance",
+  "version": "1.0.0",
+  "description": "Biomax N-BM60 attendance push listener → Supabase",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
